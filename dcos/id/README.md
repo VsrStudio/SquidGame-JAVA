@@ -35,5 +35,5 @@ Plugin SquidGame untuk server PaperMC yang memungkinkan pemain untuk bermain min
 - Permainan akan dilanjutkan otomatis setelah setiap tahap, dengan pemain yang gagal akan dieliminasi.
 
 ## Kredit
-- Dikembangkan oleh [Nama atau Username Anda].
+- Dikembangkan oleh [VsrStudio].
 - Terima kasih khusus kepada komunitas PaperMC dan kontributor lainnya.
