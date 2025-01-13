@@ -1,0 +1,11 @@
+arenas:
+  red_light_green_light:
+    spawn: world,100,65,100
+  tug_of_war:
+    team1: world,200,64,200
+    team2: world,250,64,250
+  glass_bridge:
+    start: world,300,64,300
+    end: world,350,64,350 #Finish
+rewards:
+  winner: 1000 # Reward in Vault currency
