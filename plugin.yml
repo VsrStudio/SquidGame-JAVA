@@ -1,26 +1,16 @@
-package com.vsrstudio.squidgame;
-
-import com.vsrstudio.squidgame.commands.JoinCommand;
-import com.vsrstudio.squidgame.commands.LeaveCommand;
-import com.vsrstudio.squidgame.commands.StartCommand;
-import org.bukkit.plugin.java.JavaPlugin;
-
-public class SquidGame extends JavaPlugin {
-    private GameManager gameManager;
-
-    @Override
-    public void onEnable() {
-        getLogger().info("SquidGame plugin enabled!");
-        saveDefaultConfig();
-        gameManager = new GameManager();
-
-        getCommand("join").setExecutor(new JoinCommand(gameManager));
-        getCommand("leave").setExecutor(new LeaveCommand(gameManager));
-        getCommand("start").setExecutor(new StartCommand(gameManager));
-    }
-
-    @Override
-    public void onDisable() {
-        getLogger().info("SquidGame plugin disabled!");
-    }
-}
+name: SquidGame
+main: com.vsrstudio.squidgame.SquidGame
+version: 1.0
+api-version: 1.20
+author: VsrStudio
+commands:
+  join:
+    description: Join the Squid Game.
+  leave:
+    description: Leave the Squid Game.
+  start:
+    description: Start the Squid Game.
+permissions:
+  squidgame.start:
+    description: Allows starting the Squid Game.
+    default: op
