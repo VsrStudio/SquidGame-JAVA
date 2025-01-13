@@ -35,5 +35,5 @@ SquidGame plugin for PaperMC servers that allows players to play mini-games base
 - The game progresses automatically after each stage, with players being eliminated if they fail the challenges.
 
 ## Credits
-- Developed by [Your Name or Username].
+- Developed by [VsrStudio].
 - Special thanks to the PaperMC community and contributors.
